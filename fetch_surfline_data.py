@@ -2,22 +2,34 @@ import requests
 import csv
 
 reef_breaks = [
-    "Pipeline", 
-    # "Teahupoo", 
-    "Uluwatu", 
-    "Cloudbreak", 
-    "J-Bay", 
-    "Snapper Rocks", 
+    # Top reef breaks
+    "Pipeline",
+    "Uluwatu",
+    "Cloudbreak",
+    "J-Bay", #No popularity data
+    "Snapper Rocks",
     "Padang Padang",
     "G-Land",
     "Honolua Bay",
     "Raglan",
     "Puerto Escondido",
-    "Tavarua",
-    "Nias",
+    "Tavarua", #No popularity data
+    "Nias", #No popularity data
     "Kirra",
-    # "Mavericks"
+
+    # Not so popular reef breaks
+    "The Wharf",
+    "Chinamans",
+    "Unstad",
+    "Kuta Reef",
+    "Namotu Left",
+    "Wilkes Pass",
 ]
+
+# This script fetches the lat, lon and country of each reef break from surfline.com
+# and saves it to a csv file (reef_breaks.csv)
+# https://pkg.go.dev/github.com/mhelmetag/surflinef/v2
+# https://github.com/mhelmetag/surflinef
 
 data = []
 

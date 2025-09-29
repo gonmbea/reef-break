@@ -14,8 +14,8 @@ merged = pd.merge(
     trends,
     reef_health,
     on=["date", "reef_break"],
-    # how="inner"  # only keep matching rows
-    how="outer"
+    how="inner"  # only keep matching rows
+    # how="outer" # causes it to have null values
 )
 
 # Reorder columns for clarity and save

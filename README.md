@@ -27,6 +27,11 @@ Run them in order (1 → 4) to generate the full combined dataset.
 
 *Google Trends is used as a simple proxy for surf break popularity over time.*
 
+## Resources
+- **Alex The Analyst** -> My Jupyter Notebook analysis followed mainly this [video's](https://www.youtube.com/watch?v=iPYVYBtUTyE&list=PLUaB-1hjhk8H48Pj32z4GZgGWyylqv85f&index=7) examples.
+  - It helped me understand how to create and visualize correlation plots and matrices.
+
+
 ## Notes
 - Data range limited to **2019–2024** to align sources.
 - Google Trends and Surfline API sometimes return no data for some breaks.

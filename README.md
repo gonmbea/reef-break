@@ -36,3 +36,6 @@ Run them in order (1 → 4) to generate the full combined dataset.
 - Data range limited to **2019–2024** to align sources.
 - Google Trends and Surfline API sometimes return no data for some breaks.
 - NOAA API is rate-limited so the scripts include small delays.
+
+## Future Improvements
+- Normalize Google Trends data to enable better comparison of search popularity between different reef breaks.
